@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>landslides_CA_USFS.kml</name>
+	<visibility>0</visibility>
+	<open>1</open>
+	<Schema name="landslide_CA" id="landslide_CA">
+		<SimpleField type="float" name="Id"></SimpleField>
+		<SimpleField type="float" name="SAR"></SimpleField>
+		<SimpleField type="float" name="HAP"></SimpleField>
+		<SimpleField type="float" name="Shape_Leng"></SimpleField>
+		<SimpleField type="float" name="Shape_Area"></SimpleField>
+	</Schema>
+	<Style id="style7">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style10">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style9">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style2">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style5">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style0">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style6">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style4">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style8">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style3">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style1">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>landslide_CA</name>
+		<visibility>0</visibility>
+		<open>1</open>
+		<Placemark>
+			<name>Klamath River Corridor</name>
+			<visibility>0</visibility>
+			<styleUrl>#stylemap_id0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#landslide_CA">
+					<SimpleData name="Id">1</SimpleData>
+					<SimpleData name="SAR">1</SimpleData>
+					<SimpleData name="HAP">1</SimpleData>
+					<SimpleData name="Shape_Leng">291876.90612100001</SimpleData>
+					<SimpleData name="Shape_Area">4911713162.22999954224</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-123.06772998941,42.0530586013879,0 -123.065917616098,41.2085172870547,0 -123.717625209828,41.208683531949,0 -123.681606634429,42.0428434183354,0 -123.06772998941,42.0530586013879,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Middle Eel and Black Butte Rivers</name>
+			<visibility>0</visibility>
+			<styleUrl>#stylemap_id1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#landslide_CA">
+					<SimpleData name="Id">7</SimpleData>
+					<SimpleData name="SAR">1</SimpleData>
+					<SimpleData name="HAP">0</SimpleData>
+					<SimpleData name="Shape_Leng">185087.73618099999</SimpleData>
+					<SimpleData name="Shape_Area">1744331377.90000009537</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-123.257866323485,40.113898235832,0 -122.973755238529,40.1713932677788,0 -122.738201617171,39.6049263550028,0 -123.049430828063,39.5384580929932,0 -123.257866323485,40.113898235832,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Slides Glade &amp; Thomes Cr.</name>
+			<visibility>0</visibility>
+			<styleUrl>#stylemap_id2</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#landslide_CA">
+					<SimpleData name="Id">9</SimpleData>
+					<SimpleData name="SAR">1</SimpleData>
+					<SimpleData name="HAP">1</SimpleData>
+					<SimpleData name="Shape_Leng">166807.23028300001</SimpleData>
+					<SimpleData name="Shape_Area">1125931800.70000004768</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-122.973755238529,40.1713932686798,0 -122.804145643616,40.2010779278954,0 -122.517406078024,39.643605076181,0 -122.738201616003,39.6049263559012,0 -122.973755238529,40.1713932686798,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Gap Fire</name>
+			<visibility>0</visibility>
+			<styleUrl>#stylemap_id3</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#landslide_CA">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="SAR">0</SimpleData>
+					<SimpleData name="HAP">0</SimpleData>
+					<SimpleData name="Shape_Leng">167555.04341799999</SimpleData>
+					<SimpleData name="Shape_Area">1639649282.88000011444</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-123.067729986994,42.05305860229,0 -122.69544935615,42.0536732271152,0 -122.688517859691,41.5805049070779,0 -123.066704018042,41.5785239731852,0 -123.067729986994,42.05305860229,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Iron Canyon</name>
+			<visibility>0</visibility>
+			<styleUrl>#stylemap_id4</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#landslide_CA">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="SAR">0</SimpleData>
+					<SimpleData name="HAP">0</SimpleData>
+					<SimpleData name="Shape_Leng">135630.63528200000</SimpleData>
+					<SimpleData name="Shape_Area">1137675711.68000006676</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-122.127711234071,41.1513144420474,0 -121.77308598953,41.1456995707274,0 -121.769777794755,40.8155682642124,0 -122.143929536025,40.8123968382295,0 -122.132292298134,41.0429063118231,0 -122.127711234071,41.1513144420474,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>El Dorado NF</name>
+			<visibility>0</visibility>
+			<styleUrl>#stylemap_id5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#landslide_CA">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="SAR">0</SimpleData>
+					<SimpleData name="HAP">0</SimpleData>
+					<SimpleData name="Shape_Leng">233443.18599999999</SimpleData>
+					<SimpleData name="Shape_Area">3331925547.23999977112</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-120.091042458628,39.0668281682464,0 -120.1154335321,38.4641184163585,0 -120.685212088319,38.4767712454993,0 -120.665626964815,39.0797548555485,0 -120.091042458628,39.0668281682464,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
