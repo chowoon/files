@@ -1,0 +1,23 @@
+{
+"type": "Feature",
+"properties": {
+"ethnicity": "White"
+"description": "6.49"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [ -96.92141723632812, 33.112186431884766 ]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"ethnicity": "White"
+"description": "-0.75"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [ -96.91756439208984, 33.11277389526367 ]
+}
+}
+
