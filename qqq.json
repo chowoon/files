@@ -1,0 +1,10 @@
+{
+"type": "Feature",
+"properties": {
+"ethnicity": "White"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [ -96.92141723632812, 33.112186431884766 ]
+}
+}
